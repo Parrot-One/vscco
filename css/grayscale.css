@@ -61,15 +61,16 @@
     color: rgba(255, 255, 255, 0.75);
   }
   #mainNav .nav-link:active {
-    color: white;
+    /*color: white;*/
+    color: rgba(47, 23, 15, 0.6);
   }
   #mainNav.navbar-shrink {
     /*background-color: #fff*/
     background-color:rgba(47, 23, 15, 0.6);
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #161616;
-    /*color: #fff;*/
+    /*color: #161616;*/
+    color: #fff;
   }
   #mainNav.navbar-shrink .nav-link {
     /*color: #161616;*/
