@@ -7,7 +7,7 @@
 #mainNav {
   min-height: 56px;
   /*background-color: rgb(243, 235, 235);*/
-  background-color:rgba(47, 23, 15, 0.6);
+  background-color:rgba(47, 23, 15, 0.1);
 }
 
 #mainNav .navbar-toggler {
@@ -18,7 +18,8 @@
   /*color:#df902a;
   border: 1px solid #df902a;*/
   color:rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(255, 255, 255, 0.8);
+  color:#fff;
+  border: 1px solid #fff;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -43,6 +44,7 @@
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
   outline: none;
   background-color: transparent;
+  color: fade(white, 80%);
 }
 
 @media (min-width: 992px) {
@@ -63,19 +65,23 @@
     transition: none;
     padding: 2rem 1.5rem;
     color: rgba(255, 255, 255, 0.5);
-    /*color:#fff;*/
+    color:#fff;
   }
   #mainNav .nav-link:hover {
     /*color: rgba(255, 255, 255, 0.75)*/
-    background-color:rgba(47, 23, 15, 0.6);
+    /*color:rgba(47, 23, 15, 0.6);*/
+    color: #df902a;
   }
   #mainNav .nav-link:active {
     /*color: white;*/
     color: rgba(47, 23, 15, 0.6);
+    color:rgba(255, 255, 255, 0.8);
+    color: #fff;
   }
   #mainNav.navbar-shrink {
     /*background-color: #fff*/
     background-color:rgba(47, 23, 15, 0.6);
+    color:rgba(255, 255, 255, 0.8);
   }
   #mainNav.navbar-shrink .navbar-brand {
     /*color: #161616;*/
