@@ -13,8 +13,10 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  /*color: #64a19d;
+  border: 1px solid #64a19d;*/
+  color:#df902a;
+  border: 1px solid #df902a;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -114,7 +116,8 @@
 }
 
 .masthead h1 {
-  font-family: 'Varela Round';
+  /*font-family: 'Varela Round';*/
+  font-family: 'Arial Narrow';
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
@@ -193,10 +196,16 @@
 
 .about-section {
   
-  padding-top: 5rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+  padding: 5rem;
+  /*background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
+  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);*/
+  
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 23, 15, 1)), color-stop(75%,rgba(47, 23, 15, 0.6)), to(rgba(47, 23, 15, 0.4)));
+  background: linear-gradient(to bottom,rgba(47, 23, 15, 1) 0%, rgba(47, 23, 15, 0.6) 75%, rgba(47, 23, 15, 0.4) 100%);*/
 
+  /*rgba(47, 23, 15, 0.9)*/
+  /*background: rgba(47, 23, 15, 0.8);*/
+  
 }
 
 .about-section p {
@@ -325,7 +334,8 @@ a:focus, a:hover {
 }
 
 .bg-black {
-  background-color: #161616 !important;
+  /*background-color: #161616 !important;*/
+  background-color: rgba(47, 23, 15, .85); !important
 }
 
 .bg-primary {
